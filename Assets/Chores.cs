@@ -1,12 +1,16 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class Chores : MonoBehaviour
 {
 
+	[Tooltip("Don't Touch")]
 	public Text ChoreDisplay;
+	[Tooltip("Don't Touch")]
 	public Text title;
 	
 	[Tooltip("Chores to be done by visitors")]
@@ -16,6 +20,11 @@ public class Chores : MonoBehaviour
 	public float maxTime;
 
 	private float timer;
+
+	private int escapeKeyPress;
+
+	//Information about how many visitors/chores were given during a program run.
+	private int VisitorNum;
 
 	//Gets the text that displays when the program first opens.
 	private void Start()
@@ -33,14 +42,27 @@ public class Chores : MonoBehaviour
 		{
 			ChoreDisplay.text = "Welcome to <b><color=Red>Chore</color> <color=Blue>Champs</color></b>!";
 		}
+
+		//Ability to close the program
+		if (Input.GetKeyDown(KeyCode.Escape))
+		{
+			escapeKeyPress++;
+			if (escapeKeyPress >= 5)
+			{
+				Debug.Log("Quitting!");
+				Debug.Log("Final visitor count: " + VisitorNum);
+				Application.Quit();
+			}
+		}
 	}
 
 	//Generates a random chore for someone to do in order to win a raffle.
 	public void GenerateChore()
 	{
+		VisitorNum++;
 		timer = 0;
 		int myElement = Random.Range(0, ChoresList.Length);
-
 		ChoreDisplay.text = "Your Chore Is To <b>" + ChoresList[myElement] + "</b>!";
+		
 	}
 }
