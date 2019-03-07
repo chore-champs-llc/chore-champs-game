@@ -24,6 +24,8 @@ public class Chores : MonoBehaviour
 	private int escapeKeyPress;
 
 	//Information about how many visitors/chores were given during a program run.
+	//Chore Champs isn't evil (from what I know, I'm not the CEO), this is just a simple counter so that we can
+	//adjust for more people at future events.
 	private int VisitorNum;
 
 	//Gets the text that displays when the program first opens.
@@ -49,8 +51,6 @@ public class Chores : MonoBehaviour
 			escapeKeyPress++;
 			if (escapeKeyPress >= 5)
 			{
-				Debug.Log("Quitting!");
-				Debug.Log("Final visitor count: " + VisitorNum);
 				Application.Quit();
 			}
 		}
@@ -64,5 +64,11 @@ public class Chores : MonoBehaviour
 		int myElement = Random.Range(0, ChoresList.Length);
 		ChoreDisplay.text = "Your Chore Is To <b>" + ChoresList[myElement] + "</b>!";
 		
+	}
+
+	//Puts final count regardless of how the program is quit.
+	private void OnApplicationQuit()
+	{
+		Debug.Log("Final visitor count: " + VisitorNum);
 	}
 }

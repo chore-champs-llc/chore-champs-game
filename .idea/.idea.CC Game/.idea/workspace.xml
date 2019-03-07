@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="911ce785-a861-42a6-a873-5e3adc9e5472" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Assets/Chores.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Chores.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,12 +28,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="1765" />
+          <entry key="cs" value="2042" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="1765" />
+          <entry key="C#" value="2042" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -49,17 +53,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Chores.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+            <state relative-caret-position="432">
+              <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
               <folding>
-                <marker date="1551989164905" expanded="true" signature="6:149" ph="..." />
-                <marker date="1551989164905" expanded="true" signature="186:1710" ph="{...}" />
-                <marker date="1551989164905" expanded="true" signature="695:915" ph="{...}" />
-                <marker date="1551989164905" expanded="true" signature="1025:1434" ph="{...}" />
-                <marker date="1551989164905" expanded="true" signature="1080:1185" ph="{...}" />
-                <marker date="1551989164905" expanded="true" signature="1259:1431" ph="{...}" />
-                <marker date="1551989164905" expanded="true" signature="1312:1427" ph="{...}" />
-                <marker date="1551989164905" expanded="true" signature="1536:1708" ph="{...}" />
+                <marker date="1552000373146" expanded="true" signature="6:149" ph="..." />
+                <marker date="1552000373146" expanded="true" signature="186:1933" ph="{...}" />
+                <marker date="1552000373146" expanded="true" signature="509:739" ph="/* Information about how many visitors/chores were given during a program run. ... */" />
+                <marker date="1552000373146" expanded="true" signature="848:1068" ph="{...}" />
+                <marker date="1552000373146" expanded="true" signature="1178:1506" ph="{...}" />
+                <marker date="1552000373146" expanded="true" signature="1233:1338" ph="{...}" />
+                <marker date="1552000373146" expanded="true" signature="1412:1503" ph="{...}" />
+                <marker date="1552000373146" expanded="true" signature="1465:1499" ph="{...}" />
+                <marker date="1552000373146" expanded="true" signature="1608:1780" ph="{...}" />
+                <marker date="1552000373146" expanded="true" signature="1874:1931" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -86,7 +92,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="170" />
     <option name="y" value="91" />
     <option name="width" value="1026" />
@@ -154,12 +160,12 @@
       <workItem from="1551981231171" duration="148000" />
       <workItem from="1551981445544" duration="773000" />
       <workItem from="1551982474790" duration="853000" />
-      <workItem from="1551988051780" duration="1115000" />
+      <workItem from="1551988051780" duration="2990000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2889000" />
+    <option name="totallyTimeSpent" value="4764000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -171,7 +177,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
@@ -221,17 +227,19 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Chores.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+        <state relative-caret-position="432">
+          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
           <folding>
-            <marker date="1551989164905" expanded="true" signature="6:149" ph="..." />
-            <marker date="1551989164905" expanded="true" signature="186:1710" ph="{...}" />
-            <marker date="1551989164905" expanded="true" signature="695:915" ph="{...}" />
-            <marker date="1551989164905" expanded="true" signature="1025:1434" ph="{...}" />
-            <marker date="1551989164905" expanded="true" signature="1080:1185" ph="{...}" />
-            <marker date="1551989164905" expanded="true" signature="1259:1431" ph="{...}" />
-            <marker date="1551989164905" expanded="true" signature="1312:1427" ph="{...}" />
-            <marker date="1551989164905" expanded="true" signature="1536:1708" ph="{...}" />
+            <marker date="1552000373146" expanded="true" signature="6:149" ph="..." />
+            <marker date="1552000373146" expanded="true" signature="186:1933" ph="{...}" />
+            <marker date="1552000373146" expanded="true" signature="509:739" ph="/* Information about how many visitors/chores were given during a program run. ... */" />
+            <marker date="1552000373146" expanded="true" signature="848:1068" ph="{...}" />
+            <marker date="1552000373146" expanded="true" signature="1178:1506" ph="{...}" />
+            <marker date="1552000373146" expanded="true" signature="1233:1338" ph="{...}" />
+            <marker date="1552000373146" expanded="true" signature="1412:1503" ph="{...}" />
+            <marker date="1552000373146" expanded="true" signature="1465:1499" ph="{...}" />
+            <marker date="1552000373146" expanded="true" signature="1608:1780" ph="{...}" />
+            <marker date="1552000373146" expanded="true" signature="1874:1931" ph="{...}" />
           </folding>
         </state>
       </provider>
