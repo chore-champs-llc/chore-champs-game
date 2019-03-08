@@ -59,7 +59,6 @@ public class Chores : MonoBehaviour
 	//Generates a random chore for someone to do in order to win a raffle.
 	public void GenerateChore()
 	{
-		VisitorNum++;
 		timer = 0;
 		int myElement = Random.Range(0, ChoresList.Length);
 		ChoreDisplay.text = "Your Chore Is To <b>" + ChoresList[myElement] + "</b>!";
@@ -70,5 +69,10 @@ public class Chores : MonoBehaviour
 	private void OnApplicationQuit()
 	{
 		Debug.Log("Final visitor count: " + VisitorNum);
+	}
+	
+	//Increases visitor count when the animation is complete
+	private void IncreaseVisitorCount() {
+		VisitorNum++;
 	}
 }
