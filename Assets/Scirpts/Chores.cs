@@ -64,15 +64,17 @@ public class Chores : MonoBehaviour
 		ChoreDisplay.text = "Your Chore Is To <b>" + ChoresList[myElement] + "</b>!";
 		
 	}
-
-	//Puts final count regardless of how the program is quit.
-	private void OnApplicationQuit()
-	{
-		Debug.Log("Final visitor count: " + VisitorNum);
-	}
 	
 	//Increases visitor count when the animation is complete
 	private void IncreaseVisitorCount() {
 		VisitorNum++;
+	}
+	
+	//Puts final count regardless of how the program is quit.
+	private void OnApplicationQuit()
+	{
+		PlayerPrefsManager.UpdateVisitors(VisitorNum);
+		Debug.Log("Final visitor count: " + VisitorNum);
+		Debug.Log("Lifetime visitors: " + PlayerPrefsManager.ReturnVisitors());
 	}
 }
