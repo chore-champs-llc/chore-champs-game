@@ -722,11 +722,10 @@ MonoBehaviour:
   ChoreDisplay: {fileID: 1081863417}
   title: {fileID: 1937651634}
   ChoresList:
-  - Clean Up The Dice
-  - Wash The Dishes
-  - Wash The House
-  - Code The App
-  - Learn PHP
+  - Sweep The Dice
+  - Stack The Cups
+  - Water The Plant
+  - Throw The Balls
   maxTime: 120
 --- !u!4 &1928884402
 Transform:
