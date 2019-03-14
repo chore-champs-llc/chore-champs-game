@@ -31,8 +31,7 @@ public class Chores : MonoBehaviour
 	//Gets the text that displays when the program first opens.
 	private void Start()
 	{
-		ChoreDisplay.text = "Welcome to <b><color=Red>Chore</color> <color=Blue>Champs</color></b>!";
-		title.text = "<b><color=Red>Chore</color> <color=Blue>Champs</color> <color=yellow>Random Chore Game!</color></b>";
+		title.text = "Chore Champs Random Chore Game!";
 	}
 
 	//Timer that displays a welcome text if no one is at the booth for a period of time.
@@ -42,7 +41,7 @@ public class Chores : MonoBehaviour
 
 		if (timer >= maxTime)
 		{
-			ChoreDisplay.text = "Welcome to <b><color=Red>Chore</color> <color=Blue>Champs</color></b>!";
+			ChoreDisplay.text = "Welcome to Chore Champs!";
 		}
 
 		//Ability to close the program
@@ -61,7 +60,7 @@ public class Chores : MonoBehaviour
 	{
 		timer = 0;
 		int myElement = Random.Range(0, ChoresList.Length);
-		ChoreDisplay.text = "Your Chore Is To <b>" + ChoresList[myElement] + "</b>!";
+		ChoreDisplay.text = "Your Chore Is To \n <b>" + ChoresList[myElement] + "</b>!";
 		
 	}
 	
